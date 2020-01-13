@@ -25,11 +25,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Additional Resources</a>
   </div>
 
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Home')">Home</button>
+    <a href="env_benefits.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Environmental Benefits')">Environmental Benefits</button></a>
+    <a href="obstacles.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Obstacles to EV')">Obstacles to EV</button></a>
+    <a href="budget.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Budgetary Considerations')">Budgetary Considerations</button></a>
+    <a href="add_resource.html" ><button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" onclick="openTab('Additional Resources')">Additional Resources</button></a>
+  </div>
+ 
+<script src="scripts/button.js"></script>
+
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Environmental Benefits</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">TBD</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">TBD</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">TBD2</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Additional Resources</a>
   </div>
 </div>
@@ -94,19 +108,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
-<!-- Adding tabs I hope -->
-<div id="Environmental Benefits" class="tab">
-  <h2>Environmental Benefits</h2>
-  <p>This is a test.</p>
-</div>
-
-<div class="w3-bar w3-black">
-  <button class="w3-bar-item w3-button" onclick="openTab('Environmental Benefits')">Environmental Benefits</button>
-  <button class="w3-bar-item w3-button" onclick="openTab('TBD')">TBD</button>
-  <button class="w3-bar-item w3-button" onclick="openTab('Additional Resources')">Additional Resources</button>
-</div>
-
-<script src="scripts/button.js"></script>
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
