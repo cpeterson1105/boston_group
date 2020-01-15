@@ -43,6 +43,17 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-wide{letter-spacing:4px}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 
+/*Trying to change style for a single image*/
+#EVcar {
+          width: 200px;
+          float: right;
+          display: block;
+          border: 10px solid black;
+          margin: 10 auto;
+}
+
+
+
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
 .w3-table td,.w3-table th,.w3-table-all td,.w3-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .w3-table th:first-child,.w3-table td:first-child,.w3-table-all th:first-child,.w3-table-all td:first-child{padding-left:16px}
