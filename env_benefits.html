@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <body>
 
 <!-- Navbar -->
@@ -33,13 +33,28 @@
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Environmental Benefits</h1>
-      <h5 class="w3-padding-32">One electric vehicle is associated with an XXX percent reduction in carbon dioxide emissions.</h5>
+      <h2>CO2 Emission Estimation for Average Non-Electric Vehicle</h2>
+	<p>Fill in the following values to determine how many grams of CO2 Emissions are caused by your current commute.</p>
+	<form action="/action_page.php"
+	oninput="x.value=parseInt(a.value)*parseInt(b.value)*parseInt(c.value)*parseInt(d.value)*2*404"> 
+	  <p>Number of Drivers
+	  <input type="number" id="a" name="a" value="1"></p>
+	  
+	  <p>Number of Miles One Way
+	  <input type="number" id="b" name="b" value="10"></p>
+	  
+	  <p>Number of Days per Year
+	  <input type="number" id="c" name="c" value="252"></p>
+	  
+	  <p>Number of Years
+	  <input type="number" id="d" name="d" value="40"></p>
+	  <p><b>=<output name="x" for="a b c d"></output>
+	  grams of CO2 Emissions</b></p>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
 
+	  <br><br>
+	</form>
+	</div>	
     <div class="w3-third w3-center">
       <i class="fa fa-anchor w3-padding-64 w3-text-green"></i>
     </div>
@@ -51,7 +66,9 @@
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Environmental Benefits</h1>
-      <h5 class="w3-padding-32">In Boston, electric vehicles are projected to grow by YYY percent over the next 30 years.</h5>
+      <h5 class="w3-padding-32">In Boston, electric vehicles are projected to grow up to 50000 if they follow the grobal E30/30 synario.</h5>
+      <div>
+      <img src= "images/evs_number_projection.png"></img></div>
 
       <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

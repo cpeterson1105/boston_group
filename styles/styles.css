@@ -42,16 +42,6 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-serif{font-family:serif}
 .w3-wide{letter-spacing:4px}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
-
-/*Trying to change style for a single image*/
-#EVcar {
-          width: 200px;
-          float: right;
-          display: block;
-          border: 10px solid black;
-          margin: 10 auto;
-}
-
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
 .w3-table td,.w3-table th,.w3-table-all td,.w3-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .w3-table th:first-child,.w3-table td:first-child,.w3-table-all th:first-child,.w3-table-all td:first-child{padding-left:16px}
@@ -153,6 +143,33 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-left{float:left!important}.w3-right{float:right!important}
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
+
+/*Image IDs*/
+#EVcar {
+          width: 200px;
+          float: right;
+          display: block;
+          border: 10px solid black;
+          margin: 10 auto;
+}
+#Boston_skyline {
+  display: block;
+  width: 100%;
+
+}
+
+#Boston_skyline_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#Boston_skyline_text {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%)
+}
 
 /* Colors */
 .w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
