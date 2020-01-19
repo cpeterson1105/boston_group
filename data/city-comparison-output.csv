@@ -1,13 +1,13 @@
 id,value
-flare.other.New York,4.55
-flare.other.LA,21.17
-flare.other.Chicago,5.91
-flare.other.Dallas,2.11
-flare.other.Houston,1.44
-flare.other.Washington DC,5.02
-flare.other.Miami,3.55
-flare.other.Philadelphia,3.09
-flare.other.Atlanta,5.65
-flare.other.Boston,6.00
-flare.other.San Diego,15.71
-flare.other.San Francisco,29.11
+Midwest.Chicago,5.91
+Northeast.New York,4.55
+Northeast.Philadelphia,3.09
+Northeast.Boston,6.00
+South.Dallas,2.11
+South.Houston,1.44
+South.Washington DC,5.02
+South.Miami,3.55
+South.Atlanta,5.65
+West.LA,21.17
+West.San Diego,15.71
+West.San Francisco,29.11
