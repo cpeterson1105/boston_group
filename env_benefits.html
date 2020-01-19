@@ -33,10 +33,10 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Environmental Benefits</h1>
+      <h1></h1>
       <h2>CO<sub>2</sub> Emission Estimation for Average Non-Electric Vehicle</h2>
 	<p>Fill in the following values to determine how many grams of CO<sub>2</sub> Emissions are caused by your current commute.</p>
-	<form action="/action_page.php"
+	<form id = "form1" action="/action_page.php"
 	oninput="x.value=parseInt(a.value)*parseInt(b.value)*parseInt(c.value)*parseInt(d.value)*2*404"> 
 	  <p>Number of Drivers
 	  <input type="number" id="a" name="a" value="1"></p>
@@ -51,7 +51,7 @@
 	  <input type="number" id="d" name="d" value="40"></p>
 	  <p><b>=<output name="x" for="a b c d"></output>
 	  grams of CO<sub>2</sub> Emissions</b></p>
-
+    <script> src="scripts/output.js" </script>
 	  <br><br>
 	</form>
   </div>
