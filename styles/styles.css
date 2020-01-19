@@ -144,6 +144,9 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 
+/* Bar Chart Color */
+.bar { fill: steelblue; }
+
 /*Image IDs*/
 #EVcar {
           width: 200px;
