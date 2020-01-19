@@ -4,7 +4,7 @@ var svg = d3.select("svg"),
 
 var format = d3.format(",d");
 
-var color = d3.scaleOrdinal(d3.schemeCategory20c);
+var color = d3.scaleOrdinal(["#D7DF01", "#0B610B", "#01DF01", "#B40404", "#0000FF"]);
 
 var pack = d3.pack()
     .size([width, height])
