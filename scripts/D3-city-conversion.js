@@ -10,7 +10,7 @@ var pack = d3.pack()
     .size([width, height])
     .padding(1.5);
 
-d3.csv("data/flare.csv", function(d) {
+d3.csv("data/city-comparison-output.csv", function(d) {
   d.value = +d.value;
   if (d.value) return d;
 }, function(error, classes) {
