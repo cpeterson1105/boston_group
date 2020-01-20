@@ -4,7 +4,9 @@
 <title>(EV)olve Boston</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" type= "text/css" href="styles/styles.css">
+<link rel="stylesheet" type= "text/css" href="styles/legend.css">
+<link rel="stylesheet" type="text/css" href="D3-city-conversion.css">
 <body>
 
 <!-- Navbar -->
@@ -53,7 +55,7 @@
       <h4 class="w3-padding-32 w3-text-grey">As part of its ambitious 2019 Climate Action Plan, the city of Boston hopes to achieve a 50 percent reduction in greenhouse gas emissions by 2030 and a 100 percent reduction by 2050. As part of that objective, the city is working on a massive city-wide transition to electric vehicles.</h4>
       <p class="w3-text-grey w3-right"> Image courtesy of the City of Charlottesville </p>
       <br>
-      <h5 class="w3-text-grey"> EVolve Boston uses data to highlight the necessity of transitioning swiftly to zero-emissions vehicles. We also consider the greatest the obstacles to doing so, and how the City can best encourage this monumental transition of infrastructure and behavior.</h5>
+      <h5 class="w3-text-grey"> (EV)olve Boston uses data to highlight the necessity of transitioning swiftly to zero-emissions vehicles. We also consider the greatest the obstacles to doing so, and how the City can best encourage this monumental transition of infrastructure and behavior.</h5>
   </div>
 </div>
 
@@ -65,11 +67,21 @@
     <h5 class="w3-text-grey"> However, that is still only 6 EVs per every 1,000 residents, trailing West Coast cities significantly. While the City of Boston endeavors to reduce the overall number of vehicles on the roads, it is still necessary to convert the remaining vehicles to electric. Provide public charging stations can helps spur that transition. </h5>
     <div>
       <h1 class="w3-text-green"> Electric Vehicles per capita in largest American Cities</h1>
-      <svg width="960" height="960" font-family="sans-serif" font-size="12" font-weight="1000" text-anchor="middle"></svg>
-      <p> We adapted the code for this D3 visualization from <a href="https://observablehq.com/@d3/bubble-chart"> Observable  </a> </p>
+      <div class='my-legend'>
+        <div class='legend-title'>Legend</div>
+        <div class='legend-scale'>
+          <ul class='legend-labels'>
+            <li><span style='background:#0B610B;'></span>Northeast</li>
+            <li><span style='background:#B40404;'></span>South</li>
+            <li><span style='background:#D7DF01;'></span>Midwest</li>
+            <li><span style='background:#0000FF;'></span>West</li>
+          </ul>
+        </div>
+        <div class='legend-source'><p> We adapted the code for this D3 visualization from <a href="https://observablehq.com/@d3/bubble-chart"> Observable  </a> </p>
+        </div>
+      </div>
+      <svg width="960" height="960"font-family= "sans-serif" font-size="12"font-weight= "1000" text-anchor="middle"></svg>
     </div>
-  </div>
-</div>
 
 <!-- Fourth Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container">
