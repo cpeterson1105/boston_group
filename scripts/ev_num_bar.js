@@ -20,7 +20,7 @@ var svg = d3.select("#bar_chart").append("svg")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // get the data
-d3.csv("ev_num_bar.csv", function(error, data) {
+d3.csv("data/ev_num_bar.csv", function(error, data) {
   if (error) throw error;
 
   // format the data
