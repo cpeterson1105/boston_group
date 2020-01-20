@@ -1,3 +1,4 @@
+// source https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4-->
 var margin = {top: 20, right: 20, bottom: 20, left: 50},
     width = 900 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -20,7 +21,7 @@ var svg = d3.select("#bar_chart").append("svg")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // get the data
-d3.csv("ev_num_bar.csv", function(error, data) {
+d3.csv("data/ev_num_bar.csv", function(error, data) {
   if (error) throw error;
 
   // format the data
