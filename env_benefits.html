@@ -33,39 +33,40 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <h1>Electric Vehicles Help Reduce Carbon Dioxide Emissions</h1>
-    <h4>As part of their internal combustion process, traditional gas-powered cars produce an estimated 411 grams of carbon dioxide emissions per mile. These emissions primarily come in the form of tailpipe exhaust, which negatively impacts air quality in addition to contributing to climate change. Because electric vehicles do not use internal combustion, they produce no tailpipe exhaust. This ensures electric vehicles' net carbon dioxide emissions are much smaller.</h4>
+    <h4>As part of their internal combustion process, traditional gas-powered cars produce an estimated 404 grams of carbon dioxide emissions per mile. These emissions primarily come in the form of tailpipe exhaust, which negatively impacts air quality in addition to contributing to climate change. Because electric vehicles do not use internal combustion, they produce no tailpipe exhaust. This ensures electric vehicles' net carbon dioxide emissions are much smaller.</h4>
     <p>Carbon dioxide levels are 43 percent higher than they were prior to the Industrial Revolution. Research has shown that higher levels of carbon dioxide and other greenhouse gases trap heat in Earth's atmosphere that would otherwise escape to space. This has resulted in a global temperature increase of 2 degrees Fahrenheit--a change large enough to melt polar ice caps, degrade air quality, and result in extreme weather patterns. Although personal vehicles are not solely responsible for this shift, they accocunt for roughly one-fifth of greenhouse gas emissions in the United States.</p>
 
     <h2>Electric Vehicles Produce Considerably Less Carbon Dioxide Than Traditional Vehicles</h2>
     <p>To find out how much carbon dioxide you emit as part of your current commute, fill in the following form.</p>
+
     <form id="form1" action="/action_page.php"
     oninput="update(a.value, b.value, c.value, d.value)"> 
-      <p>Number of Drivers:
+      <p>Number of Drivers
       <input type="number" id="a" name="a" value="1"></p>
-      
-      <p>Number of Miles One Way:
+
+      <p>Number of Miles One Way
       <input type="number" id="b" name="b" value="10"></p>
-      
-      <p>Number of Days per Year:
+
+      <p>Number of Days per Year
       <input type="number" id="c" name="c" value="252"></p>
-      
-      <p>Number of Years:
+
+      <p>Number of Years
       <input type="number" id="d" name="d" value="40"></p>
-      
-      <p><b>=<output id = "x" name="x" for="a b c d"></output>
-      
-      grams of carbon dioxide emissions</b></p>
-      which is roughly equivalent to the deforestation of 
+
+      <p><b>=<output id = "x" name ="x" for="a b c d"></output>
+      grams of CO2 Emissions</b></p>
+      which is equivalent to the deforestation of 
       <b><output id = "tree" name = "tree" for="a b c d"></output></b>
       trees!
-
       <script>
+
         function update(a,b,c,d){
-          x.value=((parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404)/907185).toFixed(2);
-          tree.value = (((parseInt(x.value)/2349602)*150)*907185).toFixed(0);
-          };window.onload = update(a.value, b.value, c.value, d.value);
+        x.value=(parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404/907185).toFixed(2);
+        tree.value = ((parseInt(x.value)/2349602)*150*907185).toFixed(0);
+        };window.onload = update(a.value, b.value, c.value, d.value);
       </script>
-    </form>
+      <br><br>
+    </form> 
   </div>
 </div>
 
