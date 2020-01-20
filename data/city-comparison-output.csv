@@ -1,13 +1,51 @@
 id,value
 Midwest.Chicago,5.91
+Midwest.Detroit,5.95
+Midwest.Minneapolis,2.52
+Midwest.Saint Louis,1.95
+Midwest.Cincinnati,1.80
+Midwest.Kansas City,2.08
+Midwest.Columbus,2.04
+Midwest.Cleveland,1.43
+Midwest.Indianapolis,1.84
+Midwest.Milwaukee,1.68
+Midwest.Oklahoma City,0.91
+Midwest.Louisville,1.07
 Northeast.New York,4.55
 Northeast.Philadelphia,3.09
 Special.Boston,6.00
+Northeast.Pittsburgh,1.85
+Northeast.Providence,2.88
+Northeast.Hartford,4.35
+Northeast.Buffalo,3.60
 South.Dallas,2.11
 South.Houston,1.44
 South.Washington DC,5.02
 South.Miami,3.55
 South.Atlanta,5.65
+South.Tampa,2.44
+South.Baltimore,4.29
+South.Orlando,2.19
+South.Charlotte,1.68
+South.San Antonio,1.29
+South.Austin,5.66
+South.Nashville,2.75
+South.Virginia Beach,1.61
+South.Jacksonville,9.63
+South.Raleigh,3.11
+South.Memphis,0.82
+South.Richmond,1.24
+South.New Orleans,0.82
+South.Birmingham,0.79
 West.LA,21.17
 West.San Diego,15.71
 West.San Francisco,29.11
+West.Phoenix,3.83
+West.Riverside,7.83
+West.Seattle,10.51
+West.Denver,5.41
+West.Portland,11.00
+West.Sacramento,10.40
+West.Las Vegas,2.80
+West.San Jose,51.16
+West.Salt Lake City,3.91
