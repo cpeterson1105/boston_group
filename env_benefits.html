@@ -38,7 +38,7 @@
     <p>Carbon dioxide levels are 43 percent higher than they were prior to the Industrial Revolution. Research has shown that higher levels of carbon dioxide and other greenhouse gases trap heat in Earth's atmosphere that would otherwise escape to space. This has resulted in a global temperature increase of 2 degrees Fahrenheit--a change large enough to melt polar ice caps, degrade air quality, and result in extreme weather patterns. Although personal vehicles are not solely responsible for this shift, they accocunt for roughly one-fifth of greenhouse gas emissions in the United States.</p>
 
     <h2>Electric Vehicles Produce Considerably Less Carbon Dioxide Than Traditional Vehicles</h2>
-    <p>To find out how much carbon dioxide you emit as part of your current commute, fill in the following form.</p>
+    <p>To find out how much carbon dioxide you emit as part of your current commute and the equivalent number of deforested trees, fill in the following form.</p>
 
     <form id="form1" action="/action_page.php"
     oninput="update(a.value, b.value, c.value, d.value)"> 
@@ -54,16 +54,16 @@
       <p>Number of Years
       <input type="number" id="d" name="d" value="40"></p>
 
-      <p><b>=<output id = "x" name ="x" for="a b c d"></output>
-      grams of CO2 Emissions</b></p>
+      <p><b>=<output id = "emissions" name ="emissions" for="a b c d"></output>
+      tons of CO2 Emissions</b></p>
       which is equivalent to the deforestation of 
       <b><output id = "tree" name = "tree" for="a b c d"></output></b>
       trees!
       <script>
 
         function update(a,b,c,d){
-        x.value=(parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404/907185).toFixed(2);
-        tree.value = ((parseInt(x.value)/2349602)*150*907185).toFixed(0);
+        emissions.value=(parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404/907185).toFixed(2);
+        tree.value = ((parseInt(emissions.value)/2349602)*150*907185).toFixed(0);
         };window.onload = update(a.value, b.value, c.value, d.value);
       </script>
       <br><br>
