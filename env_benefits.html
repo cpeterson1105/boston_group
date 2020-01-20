@@ -55,13 +55,13 @@
       <p><b>=<output id = "x" name="x" for="a b c d"></output>
       
       grams of carbon dioxide emissions</b></p>
-      which is equivalent to the deforestation of 
+      which is roughly equivalent to the deforestation of 
       <b><output id = "tree" name = "tree" for="a b c d"></output></b>
       trees!
 
       <script>
         function update(a,b,c,d){
-          x.value=parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404;
+          x.value=((parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404)/907185).toFixed(2);
           tree.value = ((parseInt(x.value)/2349602)*150).toFixed(0);
           };window.onload = update(a.value, b.value, c.value, d.value);
       </script>
@@ -88,7 +88,7 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
       <h1>Future CO<sub>2</sub> Reduction in Boston</h1>
-      <h4 class="w3-padding-32">Assuming the EV30@30 Scenario, this implies about 50 thousand Mt reduction in carbon dioxide emissions in 2030--the equivalent of preventing ZZZ acres of deforestation.</h4>
+      <h4 class="w3-padding-32">Assuming the EV30@30 Scenario, this implies about 50 thousand Mt reduction in carbon dioxide emissions in 2030--the equivalent of preventing the deforestation of 2,895,761,718,750 trees.</h4>
 
       <p class="w3-text-grey"> According to the Global EV Outlook 2019, the EVs are going to contribute to reduce 6% of CO<sub>2</sub> emmision in transportation sectore. The Massachusetts vehicle census in 2014 shows that there were 259,256 households in Boston with with 0.0098 Mt CO<sub>2</sub>-eq per Day per Household. We estimated the amount of CO<sub>2</sub> emission from vehicles in Boston as 927,359 Mt CO<sub>2</sub> -eq. We assumed the city follows the transicion of total CO<sub>2</sub> emissions and the reduction by Evs. In this scenario, the total emission in 2030 is 856,053 Mt CO<sub>2</sub> -eq, which is 94% of the 2018. Also, the amount of reduced CO<sub>2</sub> by EVs is 52,607 Mt CO<sub>2</sub>-eq. This is a conservative estimation because the city of Boston can introduce EVs faster than gobal average, which will lead further CO<sub>2</sub> reduction under the 'Recharge Boston' initiative. However, given the ambitious target of city that reduces gas emissions 50% by 2030 and 100% by 2050, the city needs to remove obstacles to introduction of EVs. </p> 
 
