@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/styles.css">
+<link href="styles/ev_num_bar.css" rel="stylesheet">
 
 <body>
 
@@ -32,57 +33,61 @@
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <h1>Electric Vehicles Help Reduce Carbon Dioxide Emissions</h1>
-    <h4>As part of their internal combustion process, traditional gas-powered cars produce an estimated 411 grams of carbon dioxide emissions per mile. These emissions primarily come in the form of tailpipe exhaust, which negatively impacts air quality in addition to contributing to climate change. Because electric vehicles do not use internal combustion, they produce no tailpipe exhaust. This ensures electric vehicles' net carbon dioxide emissions are much smaller.</h4>
-    <p>Carbon dioxide levels are 43 percent higher than they were prior to the Industrial Revolution. Research has shown that higher levels of carbon dioxide and other greenhouse gases trap heat in Earth's atmosphere that would otherwise escape to space. This has resulted in a global temperature increase of 2 degrees Fahrenheit--a change large enough to melt polar ice caps, degrade air quality, and result in extreme weather patterns. Although personal vehicles are not solely responsible for this shift, they accocunt for roughly one-fifth of greenhouse gas emissions in the United States.</p>
+    <h1>Electric Vehicles Reduce Carbon Dioxide Emissions</h1>
+    <h4>On average, traditional gas-powered cars emit approximately 404 grams of carbon dioxide per mile. Emissions contribute to climate change in addition to negatively impacting air quality. Because electric vehicles do not use internal combustion, they produce no tailpipe exhaust. This ensures electric vehicles' net carbon dioxide emissions are considerably smaller.</h4>
+    <p>Carbon dioxide levels have risen 43% since the Industrial Revolution. Carbon dioxide and other greenhouse gases trap heat in Earth's atmosphere, resulting in a global temperature increase of 2 degrees Fahrenheit&#8722;a change large enough to melt polar ice caps, contribute to massive forest fires, and cause extreme weather patterns. Personal vehicles accocunt for roughly one-fifth of greenhouse gas emissions in the United States.</p>
 
-    <h2>Electric Vehicles Produce Considerably Less Carbon Dioxide Than Traditional Vehicles</h2>
-    <p>To find out how much carbon dioxide you emit as part of your current commute, fill in the following form.</p>
+    <h2>Carbon Dioxide Produced by Internal Combustion Vehicles</h2>
+    <p>Fill in the form below to find out how much carbon dioxide you emit as part of your commute and the equivalent amount of deforestation:</p>
+
     <form id="form1" action="/action_page.php"
     oninput="update(a.value, b.value, c.value, d.value)"> 
-      <p>Number of Drivers:
+      <p>Number of Drivers
       <input type="number" id="a" name="a" value="1"></p>
-      
-      <p>Number of Miles One Way:
+
+      <p>Number of Miles One Way
       <input type="number" id="b" name="b" value="10"></p>
-      
-      <p>Number of Days per Year:
+
+      <p>Number of Days per Year
       <input type="number" id="c" name="c" value="252"></p>
-      
-      <p>Number of Years:
+
+      <p>Number of Years
       <input type="number" id="d" name="d" value="40"></p>
-      
-      <p><b>=<output id = "x" name="x" for="a b c d"></output>
-      
-      grams of carbon dioxide emissions</b></p>
-      which is roughly equivalent to the deforestation of 
+
+      <p><b>=<output id = "emissions" name ="emissions" for="a b c d"></output>
+      tons of CO2 Emissions</b></p>
+      which is equivalent to the carbon emitted from cutting down 
       <b><output id = "tree" name = "tree" for="a b c d"></output></b>
       trees!
-
       <script>
+
         function update(a,b,c,d){
-          x.value=((parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404)/907185).toFixed(2);
-          tree.value = (((parseInt(x.value)/2349602)*150)*907185).toFixed(0);
-          };window.onload = update(a.value, b.value, c.value, d.value);
+        emissions.value=(parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404/907185).toFixed(2);
+        tree.value = ((parseInt(emissions.value)/2349602)*100*907185).toFixed(0);
+        };window.onload = update(a.value, b.value, c.value, d.value);
       </script>
-    </form>
+      <br><br>
+    </form> 
   </div>
 </div>
 
 <!-- Second Grid -->
 <div class="w3-row-padding w3-padding-32 w3-container">
   <div class="w3-content">
-      <h1>Electric Vehicles Are Poised To Become More Popular In Boston</h1>
-      <h4 class="w3-padding-16">Assuming that local growth in electric vehicles mirrors global trends, Boston's electric vehicle stock will increase to 59,000 cars by the end of 2030.</h4>
-      <p class="w3-text-grey">The "Vision and Action Plan GO BOSTON 2030" shows that there are only 351 electric vehicles in Boston, 2014. However, according to the Global EV Outlook 2019, the number of EVs stock is going to constantly increase. In case of the EV30@30 Scenario that set the objective to reach a 30% sales share for EVs by 2030, the numbe will reach almost 200 times of the stock of 2015. If Boston succeed to follow the expansion, the EVs in the city will exceed 59 thousand. Furthermore, given the Boston is a metropolitan city where has faster growth potential than the average of world. In fact, an estimation by the International Council on Clean Transportation shows more ambitious predictions. </p>
+      <h1>Electric Vehicles Poised for Growth In Boston</h1>
+      <h4 class="w3-padding-16">Assuming local growth mirrors global trends, Boston will have 59,000 electric vehicles by the end of 2030.</h4>
+      <p class="w3-text-grey">According to <a href="https://www.boston.gov/sites/default/files/file/document_files/2019/06/go_boston_2030_-_full_report.pdf">Go Boston 2030</a> there were only 351 electric vehicles in Boston in 2014. However, the International Energy Agency's <a href="https://www.iea.org/reports/global-ev-outlook-2019">Global EV Outlook of 2019</a> predicts considerable growth in the number of EVs to more than 150 times the 2015 stock. If Boston experiences that level of expansion, EVs in the city will exceed 59,000. Given that Boston is a metropolitan city with greater growth potential, an estimation by the International Council on Clean Transportation is even more ambitious. </p>
 
       <div id = "bar_chart"><center>
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script src="scripts/ev_num_bar.js"></script> 
       </center></div>
 
+      <div class="legend-source">
+        <p> We adapted the code for this D3 visualization from <a href="https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4">bl.ocks.org</a></p>
+      </div>
+    </div>
   </div>
-</div>
 
 <!-- Third Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
