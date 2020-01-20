@@ -39,9 +39,9 @@
   <div class="w3-content">
      <div id="Boston_skyline_container">
       <img id=Boston_skyline src= "images/Boston_Skyline.jpg" alt="Boston Skyline">
-      <div id="Boston_skyline_text"> <h1>EVolve Boston provides data and analysis for policymakers and citizens to understand the EV transition in Boston.</h1></div>
+      <div id="Boston_skyline_text"> <h2>EVolve Boston provides data and analysis for policymakers and citizens to understand the EV transition in Boston.</h2></div>
       </div>
-      <p class="w3-text-grey w3-right"> "Image Attribution = Eric Kilby" </p>
+      <p class="w3-text-grey w3-right"> Image courtesy of Eric Kilby </p>
   </div>
 </div>
 
@@ -52,14 +52,32 @@
   <div class="w3-content">
       <h1>A vision of carbon-free Boston</h1>
       <img id=EVcar src= "images/EV_icon" alt="EV Charging">
-      <h3 class="w3-padding-32 w3-text-grey">As part of its ambitious 2019 Climate Action Plan to reduce Greenhouse Gas emissions 50% by 2030 and 100% by 2050, the City of Boston is working on numerous levels to support a massive city-wide transition to electric vehicles. </h5> 
+      <h3 class="w3-padding-32 w3-text-grey">As part of its ambitious 2019 Climate Action Plan to reduce Greenhouse Gas emissions 50% by 2030 and 100% by 2050, the City of Boston is working on numerous levels to support a massive city-wide transition to electric vehicles. </h3>
+<P></P>
+      <p class="w3-text-grey w3-right"> Image courtesy of the City of Charlottesville </p>
+      <br/>
       <h5 class="w3-text-grey"> EVolve Boston uses data to highlight the necessity of transitioning swiftly to zero-emissions vehicles. We also consider the greatest the obstacles to doing so, and how the City can best encourage this monumental transition of infrastructure and behavior.</h5>
-      <p class="w3-text-grey w3-right"> "Image Attribution = City of Charlottesville" </p>
+     
   </div>
 </div>
 
 
 <!-- Third Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+  <h1> East Trails West </h1>
+  <h3 class="w3-text-grey"> Boston has the most EVs per capita of major cities Northeast </h3>
+  <h5 class="w3-text-grey"> However, that is still only 6 EVs per every 1,000 residents, trailing West Coast cities significantly. While the City of Boston endeavors to reduce the overall number of vehicles on the roads, it is still necessary to convert the remaining vehicles to electric. Provide public charging stations can helps spur that transition. </h5>
+  <div>
+    <h1 class="w3-text-green"> Electric Vehicles per capita in largest American Cities</h1>
+    <svg width="960" height="960" font-family="sans-serif" font-size="12" font-weight="1000" text-anchor="middle"></svg>
+    <p> We adapted the code for this D3 visualization from <a href="https://observablehq.com/@d3/bubble-chart"> Observable  </a> </p>
+  </div>
+  </div>
+</div>
+
+<!--Disabling map for now; we can add it back in on the homepage if we want
+
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
       <h1>Boston's Current EV Charging Stations</h1>
@@ -67,20 +85,23 @@
     </div>
   </div>
 </div>
-
+-->
 <!-- Fourth Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-      <h1><a href="env_benefits.html" > What is at Stake?</a></h1>
-      <h1><a href="obstacles.html" > What are the Obstacles? </a></h1> 
-      <h1><a href="budget.html" > How will we Pay?</a></h1> 
-      <h1><a href="D3-practice-page.html"> Practicing my D3s </a></h1>
+  <div class="w3-content w3-center">
+     <h1> Explore Our Analysis Further</h1>
+      <h2 class=w3-text-green> <a href="env_benefits.html" > What is at Stake?</a> </h2>
+        <h2> &#8595; </h2>
+        <h2 class=w3-text-grey> <a href="obstacles.html"> What are the Obstacles? </a> </h2>
+        <h2> &#8595; </h2>
+        <h2 class=w3-text-grey> <a href="budget.html" > What will it Cost?</a></h2> 
 
   </div>
 </div>
+</br>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">"To reach carbon neutrality, Boston must transition all remaining vehicles on the roads to electric or other zero-emission vehicles over the next 30 years" --2019 Boston Climate Action Plan</h1>
+    <h1 class="w3-margin w3-xlarge">"To reach carbon neutrality, Boston must transition all remaining vehicles on the roads to electric or other zero-emission vehicles over the next 30 years" &#8722; 2019 Boston Climate Action Plan</h1>
 </div>
 
 <!-- Footer -->
@@ -90,6 +111,8 @@
 </footer>
 
 <script src="scripts/button.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="scripts/D3-city-conversion.js"></script>
 
 </body>
 </html>
