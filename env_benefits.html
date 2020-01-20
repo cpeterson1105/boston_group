@@ -34,26 +34,43 @@
   <div class="w3-content">
     <div class="w3-twothird">
       <h1></h1>
-      <h2>CO<sub>2</sub> Emission Estimation for Average Non-Electric Vehicle</h2>
-	<p>Fill in the following values to determine how many grams of CO<sub>2</sub> Emissions are caused by your current commute.</p>
-	<form id = "form1" action="/action_page.php"
-	oninput="x.value=parseInt(a.value)*parseInt(b.value)*parseInt(c.value)*parseInt(d.value)*2*404"> 
-	  <p>Number of Drivers
-	  <input type="number" id="a" name="a" value="1"></p>
-	  
-	  <p>Number of Miles One Way
-	  <input type="number" id="b" name="b" value="10"></p>
-	  
-	  <p>Number of Days per Year
-	  <input type="number" id="c" name="c" value="252"></p>
-	  
-	  <p>Number of Years
-	  <input type="number" id="d" name="d" value="40"></p>
-	  <p><b>=<output name="x" for="a b c d"></output>
-	  grams of CO<sub>2</sub> Emissions</b></p>
-    <script> src="scripts/output.js" </script>
-	  <br><br>
-	</form>
+      <h2>CO2 Emission Estimation for Average Non-Electric Vehicle</h2>
+<p>Fill in the following values to determine how many grams of CO2 Emissions are caused by your current commute.</p>
+
+<form id="form1" action="/action_page.php"
+oninput="update(a.value, b.value, c.value, d.value)"> 
+  <p>Number of Drivers:
+  <input type="number" id="a" name="a" value="1"></p>
+  
+  <p>Number of Miles One Way:
+  <input type="number" id="b" name="b" value="10"></p>
+  
+  <p>Number of Days per Year:
+  <input type="number" id="c" name="c" value="252"></p>
+  
+  <p>Number of Years:
+  <input type="number" id="d" name="d" value="40"></p>
+  
+  <p><b>=<output id = "x" name="x" for="a b c d"></output>
+  
+  grams of CO2 Emissions</b></p>
+  which is equivalent to the deforestation of 
+  <b><output id = "tree" name = "tree" for="a b c d"></output></b>
+  trees!
+  <script>
+  
+  function update(a,b,c,d){
+  
+    x.value=parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404;
+  tree.value = ((parseInt(x.value)/2349602)*150).toFixed(0);
+    
+    };
+  window.onload = update(a.value, b.value, c.value, d.value);
+  </script>
+  
+  <br><br>
+  
+</form>
   </div>
 </div>
 
