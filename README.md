@@ -51,15 +51,15 @@ https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
 ###Obstacles Page
 [Obstacles to Electric Vehicle Ownership]
 +Paragraph 1
-* I got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
+* We got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
 * I computed the Boston data as: (Our projection of EVs in 2019) / (hand-counted EV charging ports from Plugshare)
 
 + Paragraph 2
-* I got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
-* I computed the Boston data as: (Our projection of EVs in 2019) / (hand-counted EV charging ports from Plugshare)
+* We got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
+* We computed the Boston data as: (Our projection of EVs in 2019) / (hand-counted EV charging ports from Plugshare)
 
 + Paragraph 3
-* I got this information from the Recharge Boston website(https://www.boston.gov/departments/transportation/recharge-boston-electric-vehicle-resources)
+* We got this information from the Recharge Boston website(https://www.boston.gov/departments/transportation/recharge-boston-electric-vehicle-resources)
 
 [The Ratio of Electric Vehicles to Electric Vehicle Chargers]
 + https://theicct.org/publications/charging-gap-US
@@ -68,7 +68,7 @@ https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
 + All compiled here: https://docs.google.com/spreadsheets/d/1qUnEusdss9Gdjh6vu9j8jQ-2b3CUyGeW6LfqbmbJmcI/edit?userstoinvite=murakoshi.koshi@gmail.com&ts=5e1cf01e#gid=232761710
 
 [Current Electric Vehicle Charging Stations]
-+ I got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management)
++ We got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management)
 
 [Future Opportunities For Electric Vehicle Charging Stations]
 + This map added the planned charging station as blue mark on Arc Gis map by searching the address and ‘Add to Map Notes’ function. ’(http://arcg.is/0mevm4). 
@@ -77,17 +77,17 @@ https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
 ###Budgetary Consequences Page
 [The City's Budget Does Not Prioritize Electric Vehicles]
 + Paragraph 1
-* I got the budgetary information from the Capital Budget
-* I got the 18/36 numbers from the folks we spoke with on the phone
+* We got the budgetary information from the Capital Budget
+* We got the 18/36 numbers from the folks we spoke with on the phone
 
 + Paragraph 2
-* I got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management
+* We got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management
 
 [The Transportation Department Does Not Prioritize Electric Vehicles]
 + Paragraph 1
-* I got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management)
+* We got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management)
 * The 79 percent figure/0.2 percent figure I calculated by hand using the Capital Budget data
-* I counted the 30 capital investments on the spreadsheet as well
+* We counted the 30 capital investments on the spreadsheet as well
 
 [The City Must Invest More In Electric Vehicles]
 + Paragraph 2 “This will cost approximately $21.6 million.”
