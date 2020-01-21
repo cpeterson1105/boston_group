@@ -62,23 +62,19 @@ https://iea.blob.core.windows.net/assets/8f860fa0-5f15-4d0a-8b46-8270b22984c3/GE
 
 ### Budgetary Consequences Page
 [The City's Budget Does Not Prioritize Electric Vehicles]
-+ Paragraph 1
-* We got the budgetary information from the Capital Budget
-* We got the 18/36 numbers from the folks we spoke with on the phone
-
-+ Paragraph 2
-* We got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management
++ We downloaded budgetary information from the Boston's Capital Budget FY 2020-2024 (https://data.boston.gov/organization/office-of-budget-management).
++ Using Excel, we deleted every column except 'Department', 'Project Name', and 'Total Project Budget'. 
++ Using an Excel formula ... =IF(A2=A1,"",SUMIF(A:A,A2,C:C)) ... we compiled the total sum of each agency's capital investments. We used an Excel sort function to sort the agencies in order of most planned capital investment to least planned capital investment.
++ We scanned all projects to find those which related to electric vehicles. Only one such project existed--the Transportation Department's "Electric Charging Stations" project which had $300,000 of planned investment.
++ We spoke on the phone with employees from the city of Boston who told us that the project was expected to produce 18 new electric charging stations and 36 new electric charging ports.
 
 [The Transportation Department Does Not Prioritize Electric Vehicles]
-+ Paragraph 1
-* We got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management)
-* The 79 percent figure/0.2 percent figure I calculated by hand using the Capital Budget data
-* We counted the 30 capital investments on the spreadsheet as well
++ We downloaded budgetary information from the Boston's Capital Budget FY 2020-2024 (https://data.boston.gov/organization/office-of-budget-management).
++ Using the same method as above, we summed all planned investments allocated to the Transportation Department--this number amounted to $123 million. 
++ The share of all projects that are car-centric was obtained by visually scanning and doing some minor research into each of the Transportation Department's 30 planned investments. We found that $97.1 million was devoted to car-centric projects, $19.5 million was devoted to walking/biking-centric projects, and $6.7 million was devoted to other miscellaneous projects.
 
 [The City Must Invest More In Electric Vehicles]
-+ Paragraph 2 “This will cost approximately $21.6 million.”
-* This number is definitely the sketchiest of the bunch. I took the projected 1,800 necessary charging stations and subtracted the number of charging stations Koshi estimated existed today. I multiplied that number by 6,000. I then added on an estimate of the additional cost of site installation. I think I estimated that a new site would need to be built for every 10 ports (5 stations).
-+ “In addition to installation costs, which can range from $80,000 to $100,000 per site, the equipment for each EV charging site can cost up to $6,000.”
-* This information comes from the fine folks we spoke with on the phone.
-+ “While this might sound like a lot, it is less than 0.01% of the city's 10-year budget.”
-* I found information about the city’s budget here(https://data.boston.gov/dataset/adopted-operating-budget). I then took the estimated $21.6 million and divided it by the city’s $3.5 billion budget times 10 years. This is a gross underestimate of the budget, I’m sure, but I was a bit pressed for time.
++ In order to maintain the same ratio of EVs to EV charging stations that currently exists requires the City of Boston to build 1,800 additional charging stations by 2030. This is based on the current ratio of EVs to EV charging stations constructed above and the projected growth in EVs in Boston, which is also constructed above.
++ We spoke on the phone with employees from the City of Boston who told us that EV site installation can cost between $80,000 and $100,000 per site and that each individual charging station costs roughly $6,000.
++ We then computed the estimated necessary investment by multiplying (1,800 necessary charging stations)x($6,000 per station)x(120 estimated new site installations) = $21.6 million.
++ Using a naive extrapolation of the city's budget based on data found on the city's website (https://data.boston.gov/dataset/adopted-operating-budget), I estimated that the City of Boston's 10-year budget is $3.5 billion. Assuming a necessary $21.6 million investment, this amounts to less than 0.01% of the overall 10-year budget.
