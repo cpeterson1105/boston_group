@@ -26,7 +26,7 @@ https://theicct.org/sites/default/files/publications/US_charging_Gap_20190124.pd
 + CO2 to deforestation equivalency numbers are found here: https://www.sfmcanada.org/images/Publications/EN/C02_Sink_EN.pdf
 + CO2 Emissions by mile/gallon are found here: https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
 + General conversions were googled (hectare to acre for example)
-Using the assumption of 150 trees per acre based on the average being 100-200 indicated below (before thinning occurs)
++ Using the assumption of 150 trees per acre based on the average being 100-200 indicated below (before thinning occurs)
 + “The problem fire protection officials face is that not only does green vegetation burn, the forest is overstocked — 100 to 200 trees per acre, where a healthy forest has 40 to 60 trees per acre.” http://www.sbcounty.gov/calmast/sbc/html/healthy_forest.asp
 
 [Projection of EVs in Boston]

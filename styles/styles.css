@@ -53,7 +53,7 @@ h1,button {font-family: "Montserrat", sans-serif}
 }
 
 /*Image IDs*/
-#EVcar {width: 200px;float: right;display: block;border: 10px solid black;margin: 5 auto}
+#EVcar {width: 200px;float: right;display: block;border: 10px solid black;margin: 10 auto}
 #Boston_skyline {display: block;width: 100%}
 #Boston_skyline_container {position: relative;text-align: center;color: white;}
 #Boston_skyline_text {position: absolute;top: 0%;left: 0%;transform: translate(0%, 0%)}
@@ -94,7 +94,7 @@ h1,button {font-family: "Montserrat", sans-serif}
 .w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
 .w3-container{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
-.w3-small{font-size:12px!important}.w3-medium{font-size:15px!important}.w3-large{font-size:18px!important}
+.w3-small{font-size:12px!important}.w3-medium{font-size:15px!important}.w3-large{font-size:18px!important}.w3-xlarge{font-size:24px!important}.w3-jumbo{font-size:64px!important}
 .w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}.w3-top{top:0}.w3-bottom{bottom:0}
 .w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
 .w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
