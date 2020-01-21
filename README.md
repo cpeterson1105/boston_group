@@ -1,26 +1,26 @@
 # boston_group
 
-##1. Abstract of project
+## 1. Abstract of project
 This website (EVolve Boston) provides data and analysis for policymakers and citizens to understand the EV transition in Boston. Forcusing on the user story of "employee of Recharge Boston", this website shows a environmental benefis of EVs, obstacles to promote Evs, budgetary considerations.  
 
-##2. Members
+## 2. Members
 Adam Staveski, Christine Peterson, Koshi Murakoshi, Rees Sweeney-Taylor
 
-##3. How to run in local computer
+## 3. How to run in local computer
 * git clone git@github.com:cpeterson1105/boston_group.git
 * cd to do cloned dictionary
 * Use command "python3 -m http.server"
 
-##4. Data and Back end information
+## 4. Data and Back end information
 
-###Home Page
+### Home Page
 2019 Boston Climate Action Plan Link: https://www.boston.gov/sites/default/files/embed/file/2019-10/city_of_boston_2019_climate_action_plan_update_4.pdf
 Bubble chart source code available at:
 https://observablehq.com/@d3/bubble-chart
 Data for bubble chart drawn from this white paper:
 https://theicct.org/sites/default/files/publications/US_charging_Gap_20190124.pdf
 
-###Environmental Benefits Page
+### Environmental Benefits Page
 [CO2 Emissions work]  
 + All calculations are shown here: https://docs.google.com/spreadsheets/d/1qUnEusdss9Gdjh6vu9j8jQ-2b3CUyGeW6LfqbmbJmcI/edit?userstoinvite=murakoshi.koshi@gmail.com&ts=5e1cf01e#gid=0
 + CO2 to deforestation equivalency numbers are found here: https://www.sfmcanada.org/images/Publications/EN/C02_Sink_EN.pdf
@@ -48,7 +48,7 @@ https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
 + By assuming 2014 emission amount in Boston as 2018 emission amount (927,359 MtCO2-eq), we applied the global transition ratio of total CO2 emission and reduction ratio to 927,359 MtCO2-eq. 
 + We made csv dataset by excel and used the datawrapper(https://www.datawrapper.de/) to visualize. 
 
-###Obstacles Page
+### Obstacles Page
 [Obstacles to Electric Vehicle Ownership]
 +Paragraph 1
 * We got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
@@ -74,7 +74,7 @@ https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
 + This map added the planned charging station as blue mark on Arc Gis map by searching the address and ‘Add to Map Notes’ function. ’(http://arcg.is/0mevm4). 
 + Copied the map with blue mark as image file. Then, add red circles on areas without charging stations by using powerpoint. 
 
-###Budgetary Consequences Page
+### Budgetary Consequences Page
 [The City's Budget Does Not Prioritize Electric Vehicles]
 + Paragraph 1
 * We got the budgetary information from the Capital Budget
