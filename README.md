@@ -22,29 +22,26 @@ Adam Staveski, Christine Peterson, Koshi Murakoshi, and Rees Sweeney-Taylor comp
 [CO2 Emissions work]  
 + All calculations are shown here: https://docs.google.com/spreadsheets/d/1qUnEusdss9Gdjh6vu9j8jQ-2b3CUyGeW6LfqbmbJmcI/edit?userstoinvite=murakoshi.koshi@gmail.com&ts=5e1cf01e#gid=0
 + CO2 to deforestation equivalency numbers are found here: https://www.sfmcanada.org/images/Publications/EN/C02_Sink_EN.pdf
-+ CO2 Emissions by mile/gallon are found here: https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
-+ General conversions were Googled (hectare to acre, for example)
-+ Using the assumption of 150 trees per acre based on the average being 100-200 indicated below (before thinning occurs)
-+ “The problem fire protection officials face is that not only does green vegetation burn, the forest is overstocked — 100 to 200 trees per acre, where a healthy forest has 40 to 60 trees per acre.” http://www.sbcounty.gov/calmast/sbc/html/healthy_forest.asp
++ CO2 emissions in terms of miles per gallon are found here: https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
++ Deforestation assumption was based on the assumption of 150 trees per acre--an average of the 100-200 trees per acre indicated here: http://www.sbcounty.gov/calmast/sbc/html/healthy_forest.asp
 
 [Projection of EVs in Boston]
-+ All calculations are in /data/ev_num_bar_input_transition.xlsx
++ All calculations are shown in /data/ev_num_bar_input_transition.xlsx
 + According to the Go Boston 2030 report (page 75), there were 351 EVs in Boston in 2015.   (https://www.boston.gov/sites/default/files/file/document_files/2019/06/go_boston_2030_-_full_report.pdf)
-+ According to Global EV Outlook 2019, Figure 1.1 , we can find the global growth of electric vehicles stock between 2013-2018. Also, Figure 2 shows the global growth prediction between 2018-2030. We applied the global growth ratio to the number of EVs in Boston in 2015 to estimate the future projection. https://www.iea.org/reports/global-ev-outlook-2019
-+ We can download excel data of all figures from here. 
++ We used Figure 1.1 in the International Energy Agency's Global EV Outlook 2019 (https://www.iea.org/reports/global-ev-outlook-2019) to find the global growth of electric vehicles between 2013-2018. We used figure 2 of this same report to find the global growth prediction between 2018-2030. We applied the global growth rate to Boston's stock of EVs in 2015 to estimate future growth of EVs in the Boston market.
++ The data from the International Energy Agency's Global EV Outlook 2019 can be downloaded here:
 https://iea.blob.core.windows.net/assets/8f860fa0-5f15-4d0a-8b46-8270b22984c3/GEVO-2019-Figures.zip
-+ We converted this data into csv file by excel. Then, visualized in bar chart by D3 template(https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4). 
++ We converted the IEA data into a CSV file using Microsoft Excel. We then visualized the data using a D3 bar chart based on the following template: https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4
 
 [CO2 emission projection in Boston]
 + All calculations are shown in data/ev_co2_bar_input_transition.xlsx
-+ According to the Metropolitan Area Planning Council’s Massachusetts Vehicle Census, we can find 1) the estimated number of house hold in Boston, 2013 as 25, 926 in the column ‘hh_est’ and 2) per Day per Household(metric tonnes of CO2 equivalent) as 0.098 in the column ‘co2eqv_hh_CO2’. By multiplying these numbers and 365, we estimate CO2 emissions in Boston, 2014 as 927,359 MtCO2-eq. 
-+ Source　https://www.mapc.org/learn/data/  
-We can download metadata and zipdata fro here.  
-https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
-+ According to the Global EV Outlook 2019, Figure 5, we can find the global projection of CO2 emission. By using the ‘GHG emissions from whole transport sector’ and ‘Avoided GHG emissions’, we estimated the ratio of avoided emissions between 2018-2030 as below. 
-* Reduction ratio = Avoided GHG emissions / (‘GHG emissions from whole transport sector’ + ‘Avoided GHG emissions’). 
-+ By assuming 2014 emission amount in Boston as 2018 emission amount (927,359 MtCO2-eq), we applied the global transition ratio of total CO2 emission and reduction ratio to 927,359 MtCO2-eq. 
-+ We made csv dataset by excel and used the datawrapper(https://www.datawrapper.de/) to visualize. 
++ The Metropolitan Area Planning Council's Massachusetts Vehicle Census estimates the number of households in Boston in 2013 at 25,926 (see hh_est in https://www.mapc.org/learn/data/). 
++ The Massachusetts Vehicle Census also estimates the average emissions per household per day as 0.098 metric tons (see co2eqv_hh_CO2 in https://www.mapc.org/learn/data/).
++ By multiplying (number of households)x(average emissions per day)x(365 days) we estimate total CO2 emissions in the city of Boston in 2014 as 927,359 metric tons. 
++ The data for the above calculation can be downloaded from: https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
++ According to Figure 5 in the International Energy Agency's Global EV Outlook 2019, we can find the global projection of CO2 emissions. We estimate the reduction ratio from the use of EVs as: Reduction ratio = Avoided GHG emissions / (‘GHG emissions from whole transport sector’ + ‘Avoided GHG emissions’). 
++ We assumed emissions in 2014 were the same as emissions in 2018 (927,359 MtCO2-eq) and applied the global EV transition ratio and global reduction ratio to estiamte CO2 emission reduction in Boston. 
++ We made a CSV dataset using Microsoft Excel and then used Datawrapper (https://www.datawrapper.de/) to visualize. 
 
 ### Obstacles Page
 [Obstacles to Electric Vehicle Ownership]
