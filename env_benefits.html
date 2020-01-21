@@ -37,8 +37,9 @@
     <h4 class="w3-padding-16">On average, traditional gas-powered cars emit approximately 404 grams of carbon dioxide per mile. Emissions contribute to climate change in addition to negatively impacting air quality. Because electric vehicles do not use internal combustion, they produce no tailpipe exhaust. This ensures electric vehicles' net carbon dioxide emissions are considerably smaller.</h4>
     <p class="w3-text-grey">Carbon dioxide levels have risen 43% since the Industrial Revolution. Carbon dioxide and other greenhouse gases trap heat in Earth's atmosphere, resulting in a global temperature increase of 2 degrees Fahrenheit&#8722;a change large enough to melt polar ice caps, contribute to massive forest fires, and cause extreme weather patterns. Personal vehicles accocunt for roughly one-fifth of greenhouse gas emissions in the United States.</p>
 
+
     <h2>Carbon Dioxide Produced by Internal Combustion Vehicles</h2>
-    <p>Fill in the form below to find out how much carbon dioxide you emit as part of your commute and the equivalent amount of deforestation:</p>
+    <p>Fill in the form below to find out how much carbon dioxide you or your community emits as part of daily commutes and the equivalent amount of deforestation:</p>
 
     <form id="form1" action="/action_page.php"
     oninput="update(a.value, b.value, c.value, d.value)"> 
@@ -60,13 +61,11 @@
       <b><output id = "tree" name = "tree" for="a b c d"></output></b>
       trees!
       <script>
-
         function update(a,b,c,d){
         emissions.value=(parseInt(a)*parseInt(b)*parseInt(c)*parseInt(d)*2*404/907185).toFixed(2);
         tree.value = ((parseInt(emissions.value)/2349602)*100*907185).toFixed(0);
         };window.onload = update(a.value, b.value, c.value, d.value);
       </script>
-      <br><br>
     </form> 
   </div>
 </div>
@@ -76,7 +75,7 @@
   <div class="w3-content">
       <h1>Electric Vehicles Poised for Growth In Boston</h1>
       <h4 class="w3-padding-16">Assuming local growth mirrors global trends, Boston will have 59,000 electric vehicles by the end of 2030.</h4>
-      <p class="w3-text-grey">According to <a href="https://www.boston.gov/sites/default/files/file/document_files/2019/06/go_boston_2030_-_full_report.pdf">Go Boston 2030</a> there were only 351 electric vehicles in Boston in 2014. However, the International Energy Agency's <a href="https://www.iea.org/reports/global-ev-outlook-2019">Global EV Outlook of 2019</a> predicts considerable growth in the number of EVs to more than 150 times the 2015 stock. If Boston experiences that level of expansion, EVs in the city will exceed 59,000. Given that Boston is a metropolitan city with greater growth potential, an estimation by the International Council on Clean Transportation is even more ambitious. </p>
+      <p class="w3-text-grey">According to <a href="https://www.boston.gov/sites/default/files/file/document_files/2019/06/go_boston_2030_-_full_report.pdf">Go Boston 2030</a> there were only 351 electric vehicles in Boston in 2014. However, the International Energy Agency's <a href="https://www.iea.org/reports/global-ev-outlook-2019">Global EV Outlook of 2019</a> predicts considerable growth in the number of electric vehicles to more than 150 times of 2015 levels. If Boston experiences that level of expansion--likely a conservative estimate, given Boston's resources--the number of electric vehicles in the city will exceed 59,000 in 2030. </p>
 
       <div id = "bar_chart"><center>
         <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -90,18 +89,18 @@
   </div>
 
 <!-- Third Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-row-padding w3-padding-32 w3-container">
   <div class="w3-content">
       <h1>Electric Vehicles Will Reduce Boston's Carbon Dioxide Emissions</h1>
-      <h4 class="w3-padding-32">Assuming the EV30@30 Scenario, this implies about 50 thousand Mt reduction in carbon dioxide emissions in 2030--the equivalent of preventing the deforestation of 2,895,761,718,750 trees.</h4>
+      <h4 class="w3-padding-32">Assuming the International Energy Agency's EV30@30 Scenario, electric vehicle adoption would reduce annual carbon dioxide emissions by approximately 50,000 by 2030&#8722;the equivalent of preventing the deforestation of nearly 2 million trees.</h4>
 
-      <p class="w3-text-grey"> According to the Global EV Outlook 2019, the EVs are going to contribute to reduce 6% of carbon emmision in transportation sectore. The Massachusetts vehicle census in 2014 shows that there were 259,256 households in Boston with with 0.0098 Mt CO<sub>2</sub>-eq per Day per Household. We estimated the amount of CO<sub>2</sub> emission from vehicles in Boston as 927,359 Mt CO<sub>2</sub> -eq. We assumed the city follows the transicion of total CO<sub>2</sub> emissions and the reduction by Evs. In this scenario, the total emission in 2030 is 856,053 Mt CO<sub>2</sub> -eq, which is 94% of the 2018. Also, the amount of reduced CO<sub>2</sub> by EVs is 52,607 Mt CO<sub>2</sub>-eq. This is a conservative estimation because the city of Boston can introduce EVs faster than gobal average, which will lead further CO<sub>2</sub> reduction under the 'Recharge Boston' initiative. However, given the ambitious target of city that reduces gas emissions 50% by 2030 and 100% by 2050, the city needs to remove obstacles to introduction of EVs. </p> 
+      <p class="w3-text-grey"> The International Energy Agency predicts that electric vehicles will reduce 6% of global carbon dioxide emissions in the transportation sector by 2030. Based on the Massachusetts vehicle census from 2014, there were nearly 260,000 households in Boston producing on average 3.57 tons of carbon dioxide from annual driving. This amounts to nearly 930,000 tons of carbon dioxide emissions for the entire city of Boston. Based on the International Energy Agency's projections of electric vehicle adoption, total emissions in the City of Boston will drop by 52,607 tons by 2030. Under the "Recharge Boston" initiative, we expect the City to surpass these projections, leading to further carbon dioxide reduction. Given the ambitious target set by the Climate Action Plan, the city must proactively remove obstacles to the introduction of electric vehicles. </p> 
 
       <div>
-      <h3>CO<sub>2</sub> emission projection in Boston</h3></div>
+      <h4>Carbon Dioxide Emission Projection in Boston</h4></div>
 
       <div class="w3-image w3-center">
-      <iframe title="co2 pojection" aria-label="Bars (old)" src="//datawrapper.dwcdn.net/uRbE6/1/" scrolling="no" frameborder="0" style="border: none;" width="800" height="481"></iframe>
+        <iframe title="co2 pojection" aria-label="Bars (old)" src="//datawrapper.dwcdn.net/uRbE6/5/" scrolling="no" frameborder="0" style="border: none;" width="800" height="481"></iframe>
       </div>
 </div>
 
@@ -109,9 +108,9 @@
 <div class="w3-row-padding w3-light-grey w3-padding-32 w3-container">
   <div class="w3-content w3-center">
     <h2> <u>Explore Our Analysis Further</u></h2>
-    <h4 class=w3-text-green> <a href="env_benefits.html" > What Is At Stake?</a> </h4>
+    <h4 class=w3-text-grey> <a href="env_benefits.html" > What Is At Stake?</a> </h4>
     <h4> &#8595; </h4>
-    <h4 class=w3-text-grey> <a href="obstacles.html"> What Are The Obstacles? </a> </h4>
+    <h4 class=w3-text-green> <a href="obstacles.html"> What Are The Obstacles? </a> </h4>
     <h4> &#8595; </h2>
     <h4 class=w3-text-grey> <a href="budget.html" > What Will It Cost?</a></h4> 
   </div>
