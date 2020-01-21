@@ -1,20 +1,20 @@
 # boston_group
 
-## 1. Abstract of project
-This website (EVolve Boston) provides data and analysis for policymakers and citizens to understand the EV transition in Boston. Forcusing on the user story of "employee of Recharge Boston", this website shows a environmental benefis of EVs, obstacles to promote Evs, budgetary considerations.  
+## 1. Abstract of Project
+(EV)olve Boston provides data and analysis for policymakers and citizens to understand the EV transition in Boston. We examine the environmental benefits of electric vehicle expansion, the obstacles standing in the way, and the implications of that expansion on the municipal budget.
 
 ## 2. Members
-Adam Staveski, Christine Peterson, Koshi Murakoshi, Rees Sweeney-Taylor
+Adam Staveski, Christine Peterson, Koshi Murakoshi, and Rees Sweeney-Taylor completed original research and compiled the website.
 
-## 3. How to run in local computer
+## 3. How to Run on Local Computer
 * git clone git@github.com:cpeterson1105/boston_group.git
-* cd to do cloned dictionary
+* cd to do cloned directory
 * Use command "python3 -m http.server"
 
-## 4. Data and Back end information
+## 4. Data and Back End Information
 
 ### Home Page
-2019 Boston Climate Action Plan Link: https://www.boston.gov/sites/default/files/embed/file/2019-10/city_of_boston_2019_climate_action_plan_update_4.pdf
+2019 Boston Climate Action Plan link: https://www.boston.gov/sites/default/files/embed/file/2019-10/city_of_boston_2019_climate_action_plan_update_4.pdf
 Bubble chart source code available at:
 https://observablehq.com/@d3/bubble-chart
 Data for bubble chart drawn from this white paper:
