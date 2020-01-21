@@ -14,25 +14,23 @@ Adam Staveski, Christine Peterson, Koshi Murakoshi, and Rees Sweeney-Taylor comp
 ## 4. Data and Back End Information
 
 ### Home Page
-2019 Boston Climate Action Plan link: https://www.boston.gov/sites/default/files/embed/file/2019-10/city_of_boston_2019_climate_action_plan_update_4.pdf
-Bubble chart source code available at:
-https://observablehq.com/@d3/bubble-chart
-Data for bubble chart drawn from this white paper:
-https://theicct.org/sites/default/files/publications/US_charging_Gap_20190124.pdf
++ 2019 Boston Climate Action Plan link: https://www.boston.gov/sites/default/files/embed/file/2019-10/city_of_boston_2019_climate_action_plan_update_4.pdf
++ Bubble chart source code available at: https://observablehq.com/@d3/bubble-chart
++ Data for bubble chart drawn from this white paper: https://theicct.org/sites/default/files/publications/US_charging_Gap_20190124.pdf
 
 ### Environmental Benefits Page
 [CO2 Emissions work]  
 + All calculations are shown here: https://docs.google.com/spreadsheets/d/1qUnEusdss9Gdjh6vu9j8jQ-2b3CUyGeW6LfqbmbJmcI/edit?userstoinvite=murakoshi.koshi@gmail.com&ts=5e1cf01e#gid=0
 + CO2 to deforestation equivalency numbers are found here: https://www.sfmcanada.org/images/Publications/EN/C02_Sink_EN.pdf
 + CO2 Emissions by mile/gallon are found here: https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
-+ General conversions were googled (hectare to acre for example)
++ General conversions were Googled (hectare to acre, for example)
 + Using the assumption of 150 trees per acre based on the average being 100-200 indicated below (before thinning occurs)
 + “The problem fire protection officials face is that not only does green vegetation burn, the forest is overstocked — 100 to 200 trees per acre, where a healthy forest has 40 to 60 trees per acre.” http://www.sbcounty.gov/calmast/sbc/html/healthy_forest.asp
 
 [Projection of EVs in Boston]
-+ All calculations are /data/ev_num_bar_input_transition.xlsx
-+ According to the Go Boston 2030 report pp.75, the number of EVs in Boston, 2015, is 351.   (https://www.boston.gov/sites/default/files/file/document_files/2019/06/go_boston_2030_-_full_report.pdf)
-+ According to Global EV Outlook 2019, Figure 1.1 , we can find the global growth of electric vehicles stock between 2013-2018. Also, Figure 2 shows the global growth prediction between 2018-2030. We applied the global growth ratio to the number of EVs in boston, 2015 to estimate the future projection. https://www.iea.org/reports/global-ev-outlook-2019
++ All calculations are in /data/ev_num_bar_input_transition.xlsx
++ According to the Go Boston 2030 report (page 75), there were 351 EVs in Boston in 2015.   (https://www.boston.gov/sites/default/files/file/document_files/2019/06/go_boston_2030_-_full_report.pdf)
++ According to Global EV Outlook 2019, Figure 1.1 , we can find the global growth of electric vehicles stock between 2013-2018. Also, Figure 2 shows the global growth prediction between 2018-2030. We applied the global growth ratio to the number of EVs in Boston in 2015 to estimate the future projection. https://www.iea.org/reports/global-ev-outlook-2019
 + We can download excel data of all figures from here. 
 https://iea.blob.core.windows.net/assets/8f860fa0-5f15-4d0a-8b46-8270b22984c3/GEVO-2019-Figures.zip
 + We converted this data into csv file by excel. Then, visualized in bar chart by D3 template(https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4). 
@@ -50,7 +48,7 @@ https://mapc-org.sharefile.com/d-s32d7ffdf5514fca9
 
 ### Obstacles Page
 [Obstacles to Electric Vehicle Ownership]
-+Paragraph 1
++ Paragraph 1
 * We got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
 * I computed the Boston data as: (Our projection of EVs in 2019) / (hand-counted EV charging ports from Plugshare)
 
