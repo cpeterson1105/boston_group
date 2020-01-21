@@ -1,15 +1,15 @@
 # boston_group
 
-1. Abstract of project
+1. Abstract of project: 
 This website (EVolve Boston) provides data and analysis for policymakers and citizens to understand the EV transition in Boston. Forcusing on the user story of "employee of Recharge Boston", this website shows a environmental benefis of EVs, obstacles to promote Evs, budgetary considerations.  
 
-2. Members
+2. Members: 
 Adam Staveski
 Christine Peterson
 Koshi Murakoshi
 Rees Sweeney-Taylor
 
-3. How to run in local computer
+3. How to run in local computer: 
 -git clone git@github.com:cpeterson1105/boston_group.git
 -cd to do cloned dictionary
 -Use command "python3 -m http.server"
@@ -21,6 +21,7 @@ Bubble chart source code available at:
 https://observablehq.com/@d3/bubble-chart
 Data for bubble chart drawn from this white paper:
 https://theicct.org/sites/default/files/publications/US_charging_Gap_20190124.pdf
+
 
 =Environmental Benefits=
 [CO2 Emissions work]
@@ -95,3 +96,4 @@ This number is definitely the sketchiest of the bunch. I took the projected 1,80
 This information comes from the fine folks we spoke with on the phone.
 “While this might sound like a lot, it is less than 0.01% of the city's 10-year budget.”
 I found information about the city’s budget here. I then took the estimated $21.6 million and divided it by the city’s $3.5 billion budget times 10 years. This is a gross underestimate of the budget, I’m sure, but I was a bit pressed for time.
+
