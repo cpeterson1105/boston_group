@@ -45,29 +45,20 @@ https://iea.blob.core.windows.net/assets/8f860fa0-5f15-4d0a-8b46-8270b22984c3/GE
 
 ### Obstacles Page
 [Obstacles to Electric Vehicle Ownership]
-+ Paragraph 1
-* We got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
-* I computed the Boston data as: (Our projection of EVs in 2019) / (hand-counted EV charging ports from Plugshare)
-
-+ Paragraph 2
-* We got all the state data from this website(https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/)
-* We computed the Boston data as: (Our projection of EVs in 2019) / (hand-counted EV charging ports from Plugshare)
-
-+ Paragraph 3
-* We got this information from the Recharge Boston website(https://www.boston.gov/departments/transportation/recharge-boston-electric-vehicle-resources)
-
-[The Ratio of Electric Vehicles to Electric Vehicle Chargers]
-+ https://theicct.org/publications/charging-gap-US
-+ Appendix at the bottom has values used for EV numbers
-+ Population of U.S. metropolitan areas information found here: https://www.statista.com/statistics/183600/population-of-metropolitan-areas-in-the-us/
-+ All compiled here: https://docs.google.com/spreadsheets/d/1qUnEusdss9Gdjh6vu9j8jQ-2b3CUyGeW6LfqbmbJmcI/edit?userstoinvite=murakoshi.koshi@gmail.com&ts=5e1cf01e#gid=232761710
++ The Ratio of Electric Vehicles to Electric Vehicle Chargers
+* We downloaded all state data from this website: https://evadoption.com/ev-charging-stations-statistics/charging-stations-by-state/
+* We computed data for Boston by using our projection of EVs in Boston in 2019 and manually counting the total number of charging stations in Boston based on data from Plugshare (https://www.plugshare.com/). We applied the formula: (Our projection of EVs in 2019) / (hand-counted EV charging ports from Plugshare)
+* We cited a survey from the Recharge Boston website (https://www.boston.gov/departments/transportation/recharge-boston-electric-vehicle-resources).
 
 [Current Electric Vehicle Charging Stations]
-+ We got the budgetary information from the Capital Budget(https://data.boston.gov/organization/office-of-budget-management)
++ We got the budgetary information from the Boston's Capital Budget FY 2020-2024 (https://data.boston.gov/organization/office-of-budget-management)
+
+[Planned Expansion of Electric Vehicle Charging Stations]
++ We pulled this image from the Recharge Boston website (https://www.boston.gov/departments/transportation/recharge-boston-electric-vehicle-resources).
 
 [Future Opportunities For Electric Vehicle Charging Stations]
-+ This map added the planned charging station as blue mark on Arc Gis map by searching the address and ‘Add to Map Notes’ function. ’(http://arcg.is/0mevm4). 
-+ Copied the map with blue mark as image file. Then, add red circles on areas without charging stations by using powerpoint. 
++ We used ARCGIS to add blue marks where the city plans to expand its publicly availble charging stations. We searched the address and used the ‘Add to Map Notes’ function (http://arcg.is/0mevm4). 
++ We then visually inspected the map and used Microsoft PowerPoint to add red circles to areas without charging stations. 
 
 ### Budgetary Consequences Page
 [The City's Budget Does Not Prioritize Electric Vehicles]
